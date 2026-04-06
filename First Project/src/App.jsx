@@ -1,7 +1,7 @@
 import React from "react";
 
 const App=()=>{
-  return
+  return(
   <>
   <div className="Container">
     <h1>My First React Applicaton and i am here to start it</h1>
@@ -11,6 +11,6 @@ const App=()=>{
     <h2>I am again here now let's do some work and examine how actually the things will happens </h2>
   </div>
   
-  </>
+  </>);
 }
 export default App

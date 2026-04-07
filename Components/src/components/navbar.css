@@ -1,0 +1,13 @@
+.navbar{
+  position: sticky;
+  display: flex;
+  background-color: rgb(40, 40, 90);
+}
+.navbar ul{
+  display: flex;
+
+ 
+}
+.navbar ul li{
+  text-decoration: none;
+}

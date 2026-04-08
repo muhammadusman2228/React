@@ -100,10 +100,12 @@ return (
   <>
 <div className="parent">
 
- { jobs.map((ele)=>{
+ { jobs.map((ele,idx)=>{
 return(
   <>
+  <div key={idx}>
   <Card company={ele.company} logo={ele.logo} pay={ele.payPerHour} post={ele.post} location={ele.location} datePosted={ele.datePosted} tag={ele.tag}/>
+  </div>
   </>
 )
   })}

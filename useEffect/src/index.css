@@ -1,0 +1,20 @@
+body{
+    margin:10;
+    padding:10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} 
+ button{
+    margin:20px;
+    padding:10px;
+    height: 60px;
+    width:100px;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 2s ease-in;
+}

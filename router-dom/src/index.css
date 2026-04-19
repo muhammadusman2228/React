@@ -1,0 +1,31 @@
+nav ul{
+  display: flex;
+  gap:200px;
+  text-decoration: none;
+  color: aliceblue;
+
+}
+nav{
+  color:white;
+  background-color: rgb(115, 104, 126);
+  padding: 10px 5px;
+  margin-bottom: 10px;
+
+
+}
+.active{
+  background-color: blue;
+}
+nav ul li{
+  list-style-type:none;
+  text-align: center;
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: large;
+  font-weight: 600;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}

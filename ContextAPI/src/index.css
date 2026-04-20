@@ -1,0 +1,27 @@
+.div{
+
+
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  align-items: center;
+}
+body{
+  background-color: aqua;
+}
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:20px;
+}
+button{
+  color:white;
+  padding: 3px 7px;
+  background-color: rgb(66, 48, 48);
+  border-radius: 4px;
+  text-align: center;
+  font-size: large;
+  cursor: pointer;
+}
